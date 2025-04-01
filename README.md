@@ -105,7 +105,7 @@ MentorConnect is a fully functional web-based platform that connects students wi
 ![](./demo/SC01.png)
 [IMG02](./demo/SC02.png)
 ![](./demo/SC02.png)
-[IMG03](./demo/SC03.png)
+
 ![](./demo/SC03.png)
 [IMG04](./demo/SC04.png)
 ![](./demo/SC04.png)
