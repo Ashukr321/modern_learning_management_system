@@ -7,12 +7,10 @@ import responseTime from 'response-time';
 import path from 'path';
 // matric collections 
 import client from 'prom-client'
-
 // Import middleware
 import { errorHandler, notFoundHandler } from './middleware/error.middleware';
 import { standardLimiter, authLimiter } from './middleware/rate-limiter.middleware';
 import { authenticateToken, requireAdmin } from './middleware/auth.middleware';
-
 // Import routes
 import authRoutes from './routes/auth.routes';
 import profileRoutes from './routes/profile.routes';
@@ -21,19 +19,13 @@ import messageRoutes from './routes/message.routes';
 import resourceRoutes from './routes/resource.routes';
 import eventRoutes from './routes/event.routes';
 import forumRoutes from './routes/forum.routes';
-
-
-
 // Load environment variables
 dotenv.config();
-
 const app = express();
 const port = process.env.PORT || 5000;
-
 //  create function to collect Default Metrics 
 const collectDefaultMetrics = client.collectDefaultMetrics;
 collectDefaultMetrics({ register: client.register });
-
 // create the custom dashboard 
 const reqResTime  = new client.Histogram({
   name: 'http_req_res_time_mentor_connect',
