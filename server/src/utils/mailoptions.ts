@@ -5,18 +5,18 @@ import nodemailer from 'nodemailer'
 // Welcome Email Template
 const welcomeMailOptions = (email:string, firstName:string) => {
   return {
-    from: `"${process.env.company_name || 'MentorConnectAI'}" <${process.env.smtp_email}>`,
+    from: `"${process.env.company_name || 'EduOrbit'}" <${process.env.smtp_email}>`,
     to: email,
-    subject: `🚀 ${firstName}, Welcome to MentorConnectAI! Your Journey Starts Here`,
+    subject: `🚀 ${firstName}, Welcome to EduOrbit! Your Journey Starts Here`,
     html: `
     <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; text-align: center;">
-        <h2 style="color: #333;">Hey ${firstName}, Welcome to MentorConnectAI! 🎉</h2>
+        <h2 style="color: #333;">Hey ${firstName}, Welcome to EduOrbit! 🎉</h2>
         <p style="color: #555; font-size: 16px;">You're now part of a growing community of learners, mentors, and industry experts!</p>
         
         <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjpCmq6SsPcfxnOmMoEaQRDKd6HdQzT7ew-q6VfSrTTY5QpHfbEKYPGCxqiZ0piYBctOTOEJOvoAMUeTROo-SqwaYK4icbuxQpvLtzCoZkTPJiN6GB0bEq_oeF8uyj9mj8-u8S_jOZM7QoLrWDQk26T_IsqjWleDLfuKPjPkunTDV4bAoO73dAE5C8i8Ig" 
              alt="Welcome Banner" style="max-width: 100%; border-radius: 8px; margin: 20px 0;" />
 
-        <h3 style="color: #333;">🚀 What’s Next?</h3>
+        <h3 style="color: #333;">🚀 What's Next?</h3>
         <p style="color: #555; font-size: 16px;">Start exploring and make the most of your experience:</p>
         
         <ul style="list-style: none; padding: 0;">
@@ -45,10 +45,10 @@ const welcomeMailOptions = (email:string, firstName:string) => {
 
         <p style="color: #777; font-size: 12px; margin-top: 20px;">Need help? Our support team is just an email away.</p>
         
-        <p style="color: #555; font-size: 14px; margin-top: 20px;">Best regards,<br><strong>The MentorConnectAI Team</strong></p>
+        <p style="color: #555; font-size: 14px; margin-top: 20px;">Best regards,<br><strong>The EduOrbit Team</strong></p>
         
         <footer style="font-size: 12px; color: #aaa; margin-top: 30px;">
-            <p>This email was sent to you because you registered with MentorConnectAI.</p>
+            <p>This email was sent to you because you registered with EduOrbit.</p>
         </footer>
     </div>
     `,
@@ -71,9 +71,9 @@ const Subscriptions = (email: string) => {
   const formattedDate = now.toLocaleString('en-US', options);
 
   return {
-    from: `"${process.env.company_name || 'MentorConnectAI'}" <${process.env.smtp_email}>`,
+    from: `"${process.env.company_name || 'EduOrbit'}" <${process.env.smtp_email}>`,
     to: email,
-    subject: `🎉 Thank You for Subscribing to MentorConnectAI!`,
+    subject: `🎉 Thank You for Subscribing to EduOrbit!`,
     html: `
     <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9; text-align: center;">
         <h2 style="color: #333;">Thank You for Subscribing! 🎉</h2>
@@ -82,8 +82,8 @@ const Subscriptions = (email: string) => {
         <h3 style="color: #333;">📅 ${formattedDate}</h3>
         <p style="color: #555; font-size: 16px;">We are excited to have you on board!</p>
         
-        <h3 style="color: #333;">🚀 What’s Next?</h3>
-        <p style="color: #555; font-size: 16px;">Here’s how you can make the most of your experience:</p>
+        <h3 style="color: #333;">🚀 What's Next?</h3>
+        <p style="color: #555; font-size: 16px;">Here's how you can make the most of your experience:</p>
         
         <ul style="list-style: none; padding: 0;">
             <li style="margin: 10px 0; font-size: 16px;">✅ Connect with experienced mentors.</li>
@@ -102,7 +102,7 @@ const Subscriptions = (email: string) => {
 
         <p style="color: #777; font-size: 12px; margin-top: 20px;">Need help? Our support team is just an email away.</p>
         
-        <p style="color: #555; font-size: 14px; margin-top: 20px;">Best regards,<br><strong>The MentorConnectAI Team</strong></p>
+        <p style="color: #555; font-size: 14px; margin-top: 20px;">Best regards,<br><strong>The EduOrbit Team</strong></p>
         <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjpCmq6SsPcfxnOmMoEaQRDKd6HdQzT7ew-q6VfSrTTY5QpHfbEKYPGCxqiZ0piYBctOTOEJOvoAMUeTROo-SqwaYK4icbuxQpvLtzCoZkTPJiN6GB0bEq_oeF8uyj9mj8-u8S_jOZM7QoLrWDQk26T_IsqjWleDLfuKPjPkunTDV4bAoO73dAE5C8i8Ig" 
              alt="Welcome Banner" style="max-width: 100%; border-radius: 8px; margin: 20px 0;" />
     </div>
@@ -127,7 +127,7 @@ const supportContactOpition = (firstName: string, email: string, subject: string
   email
   return {
     from: email,
-    to:`"${process.env.company_name || 'MentorConnectAI'}" <${process.env.smtp_email}>`, 
+    to:`"${process.env.company_name || 'EduOrbit'}" <${process.env.smtp_email}>`, 
     subject: `📬 Support Request: ${subject}`,
     html: `
     <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9;">
@@ -156,7 +156,7 @@ const supportContactOpition = (firstName: string, email: string, subject: string
             </ul>
         </div>
 
-        <p style="color: #555; font-size: 14px; margin-top: 20px;">Best regards,<br><strong>MentorConnectAI Support Team</strong></p>
+        <p style="color: #555; font-size: 14px; margin-top: 20px;">Best regards,<br><strong>EduOrbit Support Team</strong></p>
         
         <hr style="border: 1px solid #eee; margin: 20px 0;">
         

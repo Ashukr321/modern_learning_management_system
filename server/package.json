@@ -1,7 +1,7 @@
 {
   "name": "mentorconnect-server",
   "version": "1.0.0",
-  "description": "MentorConnect Backend Server",
+  "description": "EduOrbit Backend Server",
   "main": "dist/server.js",
   "scripts": {
     "start": "node dist/server.js",

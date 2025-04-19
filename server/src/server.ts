@@ -100,7 +100,7 @@ app.use('/api/forum', forumRoutes);
 
 // Basic route
 app.get('/', (req: Request, res: Response) => {
-  res.json({ message: 'Welcome to MentorConnect API' });
+  res.json({ message: 'Welcome to EduOrbit API' });
 });
 
 

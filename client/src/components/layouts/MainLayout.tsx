@@ -94,7 +94,7 @@ const MainLayout: React.FC = () => {
           </div>
           
           <div className="flex flex-shrink-0 items-center px-4">
-            <Link to="/" className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors duration-200">MentorConnect</Link>
+            <Link to="/" className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors duration-200">EduOrbit</Link>
           </div>
           
           <div className="mt-8 h-0 flex-1 overflow-y-auto">
@@ -146,7 +146,7 @@ const MainLayout: React.FC = () => {
         <div className="flex min-h-0 flex-1 flex-col border-r border-gray-200 bg-white">
           <div className="flex flex-1 flex-col overflow-y-auto pt-5 pb-4">
             <div className="flex flex-shrink-0 items-center px-4">
-              <Link to="/" className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors duration-200">MentorConnect</Link>
+              <Link to="/" className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors duration-200">EduOrbit</Link>
             </div>
             
             <nav className="mt-8 flex-1 space-y-2 px-3">

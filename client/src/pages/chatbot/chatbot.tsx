@@ -297,7 +297,7 @@ const Chatbot: React.FC = () => {
           className="bg-blue-600 p-4 text-white"
         >
           <div className="flex justify-between items-center">
-            <h2 className="text-xl font-bold">MentorConnectAI</h2>
+            <h2 className="text-xl font-bold">EduOrbit</h2>
             <div className="relative">
               <input
                 type="text"

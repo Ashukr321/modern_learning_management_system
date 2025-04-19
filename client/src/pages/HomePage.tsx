@@ -74,9 +74,9 @@ const HomePage: React.FC = () => {
                 <img
                   className="h-8 w-auto"
                   src="logo192.png"
-                  alt="MentorConnect"
+                  alt="EduOrbit"
                 />
-                <span className="ml-2 text-xl font-bold text-primary-600">MentorConnect</span>
+                <span className="ml-2 text-xl font-bold text-primary-600">EduOrbit</span>
               </Link>
             </div>
             
@@ -161,8 +161,8 @@ const HomePage: React.FC = () => {
               <div className="p-4">
                 <div className="flex justify-between items-center mb-8">
                   <Link to="/" className="flex items-center">
-                    <img className="h-8 w-auto" src="/logo192.png" alt="MentorConnect" />
-                    <span className="ml-2 text-xl font-bold text-primary-600">MentorConnect</span>                  </Link>
+                    <img className="h-8 w-auto" src="/logo192.png" alt="EduOrbit" />
+                    <span className="ml-2 text-xl font-bold text-primary-600">EduOrbit</span>                  </Link>
                   <button
                     onClick={() => setIsSidebarOpen(false)}
                     className="p-2 rounded-md text-gray-500 hover:text-gray-900"
@@ -339,7 +339,7 @@ const About: React.FC = () => {
 
   const testimonials = [
     {
-      quote: "MentorConnect transformed my career path. The guidance I received from my mentor helped me land my dream job at a top tech company.",
+      quote: "EduOrbit transformed my career path. The guidance I received from my mentor helped me land my dream job at a top tech company.",
       author: "Sarah Chen",
       role: "Software Engineer at Google",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -353,7 +353,7 @@ const About: React.FC = () => {
       rating: 5
     },
     {
-      quote: "Through MentorConnect, I found not just a mentor but a lifelong professional relationship. The platform's matching system is truly remarkable.",
+      quote: "Through EduOrbit, I found not just a mentor but a lifelong professional relationship. The platform's matching system is truly remarkable.",
       author: "Priya Patel",
       role: "Data Scientist at Amazon",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -378,7 +378,7 @@ const About: React.FC = () => {
             Bridging the Gap Between Students and Alumni
           </h2>
           <p className="mt-4 text-base sm:text-lg leading-7 text-gray-600">
-            MentorConnect is revolutionizing the way students connect with experienced alumni, 
+            EduOrbit is revolutionizing the way students connect with experienced alumni, 
             creating meaningful relationships that shape future careers.
           </p>
         </div>
@@ -450,7 +450,7 @@ const About: React.FC = () => {
                 Success Stories
               </h2>
               <p className="mt-2 text-sm sm:text-base text-gray-300">
-                Hear from our community members about their journey with MentorConnect
+                Hear from our community members about their journey with EduOrbit
               </p>
             </div>
 
@@ -954,8 +954,8 @@ const Fnq: React.FC = () => {
       answer: "Our AI-powered matching system analyzes your profile, career goals, and preferences to suggest the most compatible mentors. You can filter mentors by industry, expertise, location, and availability to find the perfect match for your needs."
     },
     {
-      question: "Is MentorConnect free for students?",
-      answer: "Yes! MentorConnect is completely free for students. We believe in making quality mentorship accessible to all students. Alumni mentors volunteer their time to give back to their communities and help shape the next generation of professionals."
+      question: "Is EduOrbit free for students?",
+      answer: "Yes! EduOrbit is completely free for students. We believe in making quality mentorship accessible to all students. Alumni mentors volunteer their time to give back to their communities and help shape the next generation of professionals."
     },
     {
       question: "How often can I meet with my mentor?",
@@ -993,7 +993,7 @@ const Fnq: React.FC = () => {
             Frequently Asked Questions
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Find answers to common questions about MentorConnect and how our platform can help you succeed.
+            Find answers to common questions about EduOrbit and how our platform can help you succeed.
           </p>
         </motion.div>
         
@@ -1103,7 +1103,7 @@ const Footer: React.FC = () => {
           transition={{ delay: 0.2 }}
         >
           <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Mentor Connect
+            EduOrbit
           </h2>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
             Join our newsletter to stay up to date with the latest mentorship opportunities and career insights.
@@ -1156,7 +1156,7 @@ const Footer: React.FC = () => {
           transition={{ delay: 0.4 }}
         >
           <p className="text-gray-400 text-sm">
-            © 2025 Mentor Connect. All rights reserved.
+            © 2025 EduOrbit. All rights reserved.
           </p>
         </motion.div>
       </div>

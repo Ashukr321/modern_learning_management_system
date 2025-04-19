@@ -89,7 +89,7 @@ export const dummyNotifications: Notification[] = [
   {
     id: '8',
     title: 'Account Verification',
-    message: 'Please verify your email address to access all features of MentorConnect.',
+    message: 'Please verify your email address to access all features of EduOrbit.',
     type: 'warning',
     timestamp: getRelativeDate(7),
     isRead: false,
